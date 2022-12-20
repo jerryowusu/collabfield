@@ -76,3 +76,7 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'sass-rails', '~> 6.0'
 
 gem 'jquery-rails'
+
+gem 'devise'
+
+gem 'bootstrap_form'
