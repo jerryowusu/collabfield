@@ -1,0 +1,36 @@
+.single-post-card {
+    min-height: 135px;
+    max-height: 135px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    color: black;
+    padding: 10px;
+    text-align: left;
+    transition: border 0.1s, background 0.5s, box-shadow 0.1s;
+    -webkit-transition: border 0.1s, background 0.5s, box-shadow 0.1s;
+    -moz-transition: border 0.1s, background 0.5s, box-shadow 0.1s;
+    -ms-transition: border 0.1s, background 0.5s, box-shadow 0.1s;
+    -o-transition: border 0.1s, background 0.5s, box-shadow 0.1s;
+
+    .post-text {
+        overflow: hidden;
+    }
+
+    a, a:active, a:hover {
+        color: black;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background: white;
+        box-shadow: none;
+        border-radius: 1%;
+        -webkit-border-radius: 1%;
+        -moz-border-radius: 1%;
+        -ms-border-radius: 1%;
+        -o-border-radius: 1%;
+}
+
+     .post-content {
+        display: none ;
+     }
+}
